@@ -21,18 +21,18 @@ Running Detection on Single Image:
 To detect objects in a single image, execute the following command:
 
 ```bash
-Copy code
+
 python single_image_detection.py
-This script will download an image from a specified URL, perform object detection on it, and display the image with detected objects.
 ```
+This script will download an image from a specified URL, perform object detection on it, and display the image with detected objects.
+
 Running Detection on Multiple Images:
 To detect objects in multiple images, update the image_urls list in the ObjectDetaction.ipynb script with the URLs of the images you want to process. Then, execute the following command:
 
 ```bash
-Copy code
 python multiple_images_detection.py
-This script will download and process each image in the image_urls list and display the images with detected objects.
 ```
+This script will download and process each image in the image_urls list and display the images with detected objects.
 
 ## Customization
 You can customize the code to suit your specific requirements. For example:
@@ -40,7 +40,8 @@ You can customize the code to suit your specific requirements. For example:
 Modify the model used for object detection by changing the TensorFlow Hub module.
 Adjust the image dimensions for resizing.
 Change the visualization parameters such as font size, box thickness, etc.
-References
+
+## References
 TensorFlow: https://www.tensorflow.org/
 TensorFlow Hub: https://www.tensorflow.org/hub
 Matplotlib: https://matplotlib.org/
